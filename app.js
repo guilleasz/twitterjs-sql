@@ -24,8 +24,8 @@ app.use(bodyParser.json()); // would be for AJAX requests
 
 
 // start the server
-app.listen(1337, function(){
-  console.log('listening on port 1337');
+app.listen(1337, function() {
+    console.log('listening on port 1337');
 });
 
 app.use(express.static(path.join(__dirname, '/public')));
